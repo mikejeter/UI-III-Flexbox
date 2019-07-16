@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/*html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-}
+}*/
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -64,3 +64,132 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.heading1 {
+	font-size: 3em;
+}
+
+.heading2 {
+
+}
+
+.nav {
+	margin: 20px 0px 0px 90px;
+	display: flex;
+	justify-content: center;
+}
+
+.heading {
+	margin: 20px 75px 20px 75px;
+	display: flex;
+	justify-content: center;
+}
+
+.button {
+	margin: 20px 700px 0px 0px;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+}
+
+.border {
+	border-bottom: 2px solid grey;
+	margin: 20px;
+  }
+
+  .top-container {
+	margin: 20px 250px 20px 250px;
+	text-align: left;
+	display: flex;
+  }
+
+  .middle-img {
+	width: 70%;
+	margin: 20px 250px 5px 250px;
+	text-align: left;
+	display: flex; 
+  }
+
+  .bottom-container {
+	margin: 20px 250px 10px 250px;
+	text-align: left;
+	display: flex;
+  }
+
+  footer {
+	  text-align: center;
+  }
+
+  .services-header-img {
+	width: 70%;
+	margin: 20px 250px 5px 250px;
+	text-align: left;
+	display: flex;
+  }
+
+  .services-header-container {
+	margin: 20px 250px 5px 250px;
+  }
+
+  .content1 {
+	  height: 300px;
+	  width: 420px;
+	  background: lightgray;
+	  padding: 20px;
+	  border: 1px solid black;
+	  margin: 20px 20px 20px 20px;
+	  text-align: left;  
+  }
+
+  .content2 {
+	height: 300px;
+	width: 420px;
+	background: lightgray;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 20px 20px 20px 20px;
+	text-align: left;  
+}
+
+.content3 {
+	height: 300px;
+	width: 420px;
+	padding: 20px;
+	border: 0px solid black;
+	margin: 20px 20px 20px 20px;
+	text-align: left;  
+}
+
+.content4 {
+	height: 300px;
+	width: 420px;
+	border: 0px solid black;
+	margin: 20px 20px 20px 20px;
+	text-align: left;  
+}
+
+.main-container1 {
+	display: flex;
+	justify-content: center
+}
+
+.main-container2 {
+	display: flex;
+	justify-content: center
+}
+
+.main-container3 {
+	display: flex;
+	justify-content: center
+}
+
+.main-container4 {
+	display: flex;
+	justify-content: center
+}
+
+.content3 ul.a {
+    list-style-type: disc;
+	list-style-position: inside;
+  }
+
